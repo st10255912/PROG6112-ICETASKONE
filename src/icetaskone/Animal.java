@@ -27,10 +27,10 @@ public class Animal {
         Store what the user entered to the species variable.
     */
     public void input() {
-        System.out.println("Enter ID tag: ");
+        System.out.print("Enter ID tag: ");
         IDtag = kb.nextInt();
         kb.nextLine();
-        System.out.println("Enter species: ");
+        System.out.print("Enter species: ");
         species = kb.nextLine();
     }
     
